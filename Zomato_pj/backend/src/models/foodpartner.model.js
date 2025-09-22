@@ -4,7 +4,6 @@ const foodpartnerSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    unique: true,
   },
   contactName: {
     type: String,

@@ -103,6 +103,9 @@ async function registerFoodPartner(req, res) {
       _id: newFoodPartner._id,
       email: newFoodPartner.email,
       name: newFoodPartner.name,
+      address: newFoodPartner.address,
+      phone: newFoodPartner.phone,
+      contactName: newFoodPartner.contactName,
     },
   });
 }
